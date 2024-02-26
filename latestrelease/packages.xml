@@ -1,9 +1,26 @@
 
 					<packages>
-						<package name="NewPackageIvy" version="6.14.5" os="all" url="NewPackageIvy/NewPackageIvy-6.14.5-all.zip" desc="New Package with Ivy" org="Eindhoven University of Technology" license="GPL" author="H.M.W. Verbeek" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
-				    	<dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
-    	<dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
-    	<dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
+						<package name="DiscriminationAwareProcessAnalysis" version="6.14.1" os="all" url="DiscriminationAwareProcessAnalysis/DiscriminationAwareProcessAnalysis-6.14.1-all.zip" desc="DiscriminationAwareProcessAnalysis" org="PADS, RWTH Aachen" license="GPL" author="M.S. Qafari" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
+				        <dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" /> 
+        <dependency org="prom" name="ApacheUtils" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="XESLite" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="Log" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="PetriNets" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="DataPetriNets" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="DataAwareReplayer" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="PNetReplayer" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="LpSolve" rev="latest" changing="true" transitive="true" />
+<!--    <dependency org="prom" name="DeclareChecker" rev="latest" changing="true" transitive="true" />-->
+<!--    <dependency org="prom" name="DeclareMinerVisualizer" rev="latest" changing="true" transitive="true" />-->
+        <dependency org="prom" name="XESLite" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
+        <dependency org="prom" name="CSVImporter" rev="latest" changing="true" transitive="true" />   
+        <dependency org="prom" name="DataDiscovery" rev="latest" changing="true" transitive="true" />   	
+        <dependency org="prom" name="AlphaMiner" rev="latest" changing="true" transitive="true" />   	
+        <dependency org="prom" name="InductiveMiner" rev="latest" changing="true" transitive="true" />   	
+        <dependency org="prom" name="GraphViz" rev="latest" changing="true" transitive="true" />   	
+<!--    <dependency org="prom" name="DataAwareDeclareMiner" rev="latest" changing="true" transitive="true" />-->      	
 
 						</package>
 					</packages>
