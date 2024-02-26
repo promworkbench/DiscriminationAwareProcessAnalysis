@@ -1,6 +1,6 @@
 
 					<packages>
-						<package name="DiscriminationAwareProcessAnalysis" version="6.14.1" os="all" url="DiscriminationAwareProcessAnalysis/DiscriminationAwareProcessAnalysis-6.14.1-all.zip" desc="DiscriminationAwareProcessAnalysis" org="PADS, RWTH Aachen" license="GPL" author="M.S. Qafari" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
+						<package name="DiscriminationAwareProcessAnalysis" version="6.14.2" os="all" url="DiscriminationAwareProcessAnalysis/DiscriminationAwareProcessAnalysis-6.14.2-all.zip" desc="DiscriminationAwareProcessAnalysis" org="PADS, RWTH Aachen" license="GPL" author="M.S. Qafari" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
 				        <dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
         <dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" /> 
         <dependency org="prom" name="ApacheUtils" rev="latest" changing="true" transitive="true" />
